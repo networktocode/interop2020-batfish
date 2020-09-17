@@ -1,0 +1,124 @@
+{
+  "edges": [
+    {
+      "node1": {
+        "hostname": "server1",
+        "interfaceName": "eth0"
+      },
+      "node2": {
+        "hostname": "qfx-access1",
+        "interfaceName": "xe-0/0/0.0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "server2",
+        "interfaceName": "eth0"
+      },
+      "node2": {
+        "hostname": "ios-access2",
+        "interfaceName": "GigabitEthernet0/2"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "server3",
+        "interfaceName": "eth0"
+      },
+      "node2": {
+        "hostname": "eos-access3",
+        "interfaceName": "Ethernet2"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr1",
+        "interfaceName": "Ethernet1/1"
+      },
+      "node2": {
+        "hostname": "qfx-access1",
+        "interfaceName": "xe-0/0/1.0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr2",
+        "interfaceName": "Ethernet1/1"
+      },
+      "node2": {
+        "hostname": "qfx-access1",
+        "interfaceName": "xe-0/0/2.0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr1",
+        "interfaceName": "Ethernet1/2"
+      },
+      "node2": {
+        "hostname": "ios-access2",
+        "interfaceName": "GigabitEthernet0/1"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr2",
+        "interfaceName": "Ethernet1/2"
+      },
+      "node2": {
+        "hostname": "ios-access2",
+        "interfaceName": "GigabitEthernet0/3"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr1",
+        "interfaceName": "Ethernet1/3"
+      },
+      "node2": {
+        "hostname": "eos-access3",
+        "interfaceName": "Ethernet1"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr2",
+        "interfaceName": "Ethernet1/3"
+      },
+      "node2": {
+        "hostname": "eos-access3",
+        "interfaceName": "Ethernet3"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "nxos-aggr1",
+        "interfaceName": "Ethernet1/11"
+      },
+      "node2": {
+        "hostname": "nxos-aggr2",
+        "interfaceName": "Ethernet1/11"
+      }
+  },
+  {
+    "node1": {
+      "hostname": "nxos-aggr1",
+      "interfaceName": "Ethernet1/10"
+    },
+    "node2": {
+      "hostname": "nxos-aggr2",
+      "interfaceName": "Ethernet1/10"
+    }
+},  
+{
+  "node1": {
+    "hostname": "nxos-aggr1",
+    "interfaceName": "Ethernet1/6"
+  },
+  "node2": {
+    "hostname": "nxos-aggr2",
+    "interfaceName": "Ethernet1/6"
+  }
+}
+  ]
+}
