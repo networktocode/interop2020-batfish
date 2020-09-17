@@ -1,6 +1,6 @@
 # Interop 2020 Batfish Demo
 This demo runs a flow based verfication check across a 3 tier network.
-Full details and explanations can be seen within the Interop presentation, located at:
+Full details and explanations can be seen within the Interop presentation - **Validating Network HA with Batfish**.
 
 ## Logic
 This script will run the following steps over the following
