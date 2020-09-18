@@ -10,8 +10,19 @@ This script will run the following steps over the following
 4. If the flow result (success/fail) IS different to the original snapshot it will print the flow results
 5. If the flow result (success/fail) IS NOT different step the script will proceed to step 1 again
 
-## Execution
-Before executing you will need to update the variable `BATFISH_SERVICE_IP` within `impact_analysis.py` to the IP on your Batfish service. 
+## Quickstart
+
+Install and run Batfish from a Docker container.
+```bash
+$ docker run --name batfish -d -v batfish-data:/data -p 8888:8888 -p 9997:9997 -p 9996:9996 batfish/allinone
 ```
-python -i demo/impact_analysis.py -p snapshots/3tier-multivendor/ -n demo-net -s demo-snapshot
+
+Install the Python dependencies (assuming you have [Poetry](https://python-poetry.org) installed). This will automatically install the Python package dependencies into a virtual environment.
+```bash
+$ poetry install
+```
+
+Use `poetry run` to execute the demo script. Pass the IP address of your Batfish service using the `-i/--service_ip` argument. If you are running Batfish from the container in the previous step, just use `-i localhost`.
+```bash
+$ poetry run ./demo/impact_analysis.py -p snapshots/3tier-multivendor/ -n demo-net -s demo-snapshot -i localhost
 ```

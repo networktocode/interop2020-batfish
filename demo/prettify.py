@@ -36,5 +36,5 @@ def pprint_diff_reachability(answer):
         ):
             table.add_row("", "")
             table.add_row(str(zipped_flow_traces[0]), str(zipped_flow_traces[1]))
-            
+
         console.print(table)
